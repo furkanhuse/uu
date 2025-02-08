@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ad Page 2</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="ad">
+      <!-- Paste another ad script here -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-XXXXX"
+           data-ad-slot="789012"
+           data-ad-format="auto"></ins>
+    </div>
+    <div class="timer">
+      <div id="counter">10</div>
+      <p>Redirecting in <span id="seconds">10</span> seconds...</p>
+    </div>
+  </div>
+  <script src="/assets/js/script.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const shortCode = urlParams.get('code');
+    startTimer(10, http://localhost:3000/${shortCode});
+  </script>
+</body>
+</html>
