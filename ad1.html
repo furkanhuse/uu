@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ad Page 1</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="ad">
+      <!-- Paste Google AdSense/Monetag code here -->
+    </div>
+    <div class="timer">
+      <div id="counter">15</div>
+      <p>Redirecting in <span id="seconds">15</span> seconds...</p>
+    </div>
+  </div>
+  <script src="/assets/js/script.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const shortCode = urlParams.get('code');
+    startTimer(15, ad2.html?code=${shortCode});
+  </script>
+</body>
+</html>
